@@ -18,7 +18,6 @@ export const ContextProvider = ({ children }) => {
         setIsClicked({...initialState, [clicked]: true });
     }
 
-    console.log("[DEBUG] ContextProvider!")
     return (
         <StateContext.Provider 
             value={{
@@ -37,6 +36,5 @@ export const ContextProvider = ({ children }) => {
 };
 
 export const useStateContext = () => {
-    console.log("[DEBUG] UseStateContext:", StateContext)
     return useContext(StateContext)
 };
