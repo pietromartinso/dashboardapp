@@ -8,6 +8,7 @@ import { ContextProvider } from './contexts/ContextProvider';
 
 ReactDOM.render(
     <ContextProvider>
+        {/* Commit na branch conflituosa */}
         <App />
     </ContextProvider>, 
     document.getElementById('root')
