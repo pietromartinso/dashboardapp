@@ -8,6 +8,7 @@ import { ContextProvider } from './contexts/ContextProvider';
 
 ReactDOM.render(
     <ContextProvider>
+        {/* Alteração na master/main branch - gerando conflito */}
         <App />
     </ContextProvider>, 
     document.getElementById('root')
